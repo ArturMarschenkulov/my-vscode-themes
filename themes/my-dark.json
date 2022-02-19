@@ -70,7 +70,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#b5cea8"
+				"foreground": "#DCE775"
 			}
 		},
 		{
@@ -229,13 +229,13 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#FFA000"
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#FFA000"
 			}
 		},
 		{
@@ -244,7 +244,7 @@
 				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#FFA000"
 			}
 		},
 		{
@@ -339,7 +339,7 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#C7A228"
 			}
 		},
 		{
@@ -386,7 +386,122 @@
 			"settings": {
 				"foreground": "#569cd6"
 			}
+		},
+
+
+
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.readwrite",
+			],
+			"settings": {
+				"foreground": "#E1D0A9"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function.definition",
+				"entity.name.function.call",
+				"entity.name.function"
+				//"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#7986CB"
+			}
+		},
+
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter",
+				"variable.parameter.function"
+			],
+			"settings": {
+				"foreground": "#7A7A7A"
+			}
+		},
+		
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.operator.logical",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#C7A228"
+			}
+		},
+
+		{
+			"name": "Keywords2",
+			"scope": [
+				"constant.language.true",
+				"constant.language.false",
+				"support.type.primitive",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#FFA000"
+			}
+		},
+		{
+			"name": "Namespace/Module",
+			"scope": [
+				"entity.name.namespace",
+			],
+			"settings": {
+				"foreground": "#CE93D8"
+			}
+		},
+
+
+		
+		{
+			"name": "Type",
+			"scope": [
+				"entity.name.type",
+			],
+			"settings": {
+				"foreground": "#4DB6AC"
+			}
+		},
+		{
+			"name": "Member variables",
+			"scope": [
+				//"variable.instance",
+				//"variable.other.instance",
+				//"variable.readwrite.instance",
+				//"variable.other.readwrite.instance",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#AE3737"
+			}
+		},
+		{
+			"name": "Member Function",
+			"scope": [
+				"entity.name.function.member",
+			],
+			"settings": {
+				"foreground": "#3D4B9B"
+			}
+		},
+
+		{
+			"name": "",
+			"scope": [
+				""
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
 		}
+
+		//variable.other.readwrite
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
