@@ -64,10 +64,11 @@
 		},
 		{
 			"scope": [
-				"constant.numeric",
+				
 				"variable.other.enummember",
 				"keyword.operator.plus.exponent",
-				"keyword.operator.minus.exponent"
+				"keyword.operator.minus.exponent",
+				"constant.other.haskell"
 			],
 			"settings": {
 				"foreground": "#DCE775"
@@ -389,11 +390,12 @@
 		},
 
 
-
+		// My part
 		{
 			"name": "Variables",
 			"scope": [
 				"variable.other.readwrite",
+				"variable.other"
 			],
 			"settings": {
 				"foreground": "#E1D0A9"
@@ -404,7 +406,8 @@
 			"scope": [
 				"entity.name.function.definition",
 				"entity.name.function.call",
-				"entity.name.function"
+				"entity.name.function",
+				"support.function"
 				//"entity.name.function"
 			],
 			"settings": {
@@ -441,6 +444,8 @@
 				"constant.language.true",
 				"constant.language.false",
 				"support.type.primitive",
+				"variable.language.this",
+				"constant.numeric",
 				"constant.language"
 			],
 			"settings": {
@@ -451,6 +456,7 @@
 			"name": "Namespace/Module",
 			"scope": [
 				"entity.name.namespace",
+				"variable.other.readwrite.alias", // TODO: This seems to be used as a namespace in js/ts. Look whether this is compatible with other languages.
 			],
 			"settings": {
 				"foreground": "#CE93D8"
@@ -462,7 +468,13 @@
 		{
 			"name": "Type",
 			"scope": [
+				"entity.name.declaration",
+				"entity.name.class",
 				"entity.name.type",
+				"support.type.julia",
+				"support.type",
+				"storage.type.haskell",
+				"variable.other.generic-type"
 			],
 			"settings": {
 				"foreground": "#4DB6AC"
