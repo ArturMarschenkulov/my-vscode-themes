@@ -64,7 +64,6 @@
 		},
 		{
 			"scope": [
-				
 				"variable.other.enummember",
 				"keyword.operator.plus.exponent",
 				"keyword.operator.minus.exponent",
@@ -388,8 +387,6 @@
 				"foreground": "#569cd6"
 			}
 		},
-
-
 		// My part
 		{
 			"name": "Variables",
@@ -414,7 +411,6 @@
 				"foreground": "#7986CB"
 			}
 		},
-
 		{
 			"name": "Parameters",
 			"scope": [
@@ -425,7 +421,6 @@
 				"foreground": "#7A7A7A"
 			}
 		},
-		
 		{
 			"name": "Keywords",
 			"scope": [
@@ -437,7 +432,6 @@
 				"foreground": "#C7A228"
 			}
 		},
-
 		{
 			"name": "Keywords2",
 			"scope": [
@@ -446,7 +440,8 @@
 				"support.type.primitive",
 				"variable.language.this",
 				"constant.numeric",
-				"constant.language"
+				"constant.language",
+				"entity.name.function.preprocessor"
 			],
 			"settings": {
 				"foreground": "#FFA000"
@@ -462,9 +457,6 @@
 				"foreground": "#CE93D8"
 			}
 		},
-
-
-		
 		{
 			"name": "Type",
 			"scope": [
@@ -502,7 +494,6 @@
 				"foreground": "#3D4B9B"
 			}
 		},
-
 		{
 			"name": "",
 			"scope": [
@@ -512,7 +503,6 @@
 				"foreground": "#d4d4d4"
 			}
 		}
-
 		//variable.other.readwrite
 	],
 	"semanticHighlighting": true,
